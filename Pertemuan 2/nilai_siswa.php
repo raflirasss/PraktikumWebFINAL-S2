@@ -76,7 +76,6 @@ switch ($grade) {
     <table class="table table-striped table-dark">
         <thead>
             <tr>
-                <th scope="col">Nomor</th>
                 <th scope="col">Nama</th>
                 <th scope="col">Mata Kuliah</th>
                 <th scope="col">Nilai UTS</th>
@@ -89,7 +88,6 @@ switch ($grade) {
         </thead>
         <tbody>
             <tr>
-                <th scope="row">1</th>
                 <td><?php echo $nama_siswa ?></td>
                 <td><?php echo $mata_kuliah ?></td>
                 <td><?php echo $nilai_uts ?></td>
